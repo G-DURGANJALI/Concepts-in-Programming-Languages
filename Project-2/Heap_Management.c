@@ -1,6 +1,6 @@
 //combination of buddy_block system and first fit heap management system
 #include <stdio.h>
-#include <stddef.h>
+#include <stddef.h>  // these are standard libraries declared in header file
 #include <math.h>
 #define MAX_SIZE 8392
 char memory[16416];
