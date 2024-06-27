@@ -81,10 +81,9 @@ int main() {
     initializeBigInt(&num2);
     inputBigInt(&num1);
     inputBigInt(&num2);
-
-   // enter 1 for additon 
-   // enter 2 for subtraction
-   // enter 3 for multiplication 
+    printf("1.Addition\n");
+    printf("2.Subtraction\n");
+    printf("3.Multiplication\n");
     int option;
     printf("enter the option you want to find ");
     scanf("%d",&option);
